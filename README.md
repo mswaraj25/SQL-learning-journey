@@ -17,9 +17,5 @@ This repository documents my  journey to become an Azure Data Engineer.
 - Power BI
 - Git & GitHub
 
-## Progress
 
-### SQL
-- Day 1: Database, Table, SELECT, WHERE,Insert
-- git and github
   
