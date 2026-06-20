@@ -1,6 +1,6 @@
 ###primary key(unique value and must not be null) and foriegn key
 	CREATE database Institution;
-     use Institution;
+    use Institution;
   CREATE TABLE Students(StudentID INT PRIMARY KEY,Name VARCHAR(50));
   CREATE TABLE Courses(CourseID INT PRIMARY KEY,StudentID INT,CourseName VARCHAR(50),FOREIGN KEY(StudentID)REFERENCES Students(StudentID));   
    insert into students values(101,'sai' ),(102,'ravi'),(103,'krishna'),(104,'ram'),(105,'ganesh');
