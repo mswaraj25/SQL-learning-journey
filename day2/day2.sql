@@ -87,7 +87,7 @@ INSERT INTO EmployeeSalary VALUES(101,'Sai',60000),(102,'Rahul',45000),(103,'Pri
                         
 			 select max(salary) from employeesalary;   # ---------->maximum salary of the employees
             
-                        #MIN
+                        #MINt
 			select min(salary) from employeesalary;   #---------->minimum salary of the employees
             
              
