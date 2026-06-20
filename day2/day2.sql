@@ -1,4 +1,4 @@
-###primary key(unique value and must not be null) and foriegn key
+###primary key(unique value and must not be null) and foriegn key.
 	CREATE database Institution;
     use Institution;
   CREATE TABLE Students(StudentID INT PRIMARY KEY,Name VARCHAR(50));
