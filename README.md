@@ -12,6 +12,7 @@ This repository documents my  journey to become an Azure Data Engineer.
 - Data Warehousing
 - Azure Data Factory
 - Azure Data Lake
+- pyspark
 - Databricks
 - Synapse Analytics
 - Power BI
