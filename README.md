@@ -1,3 +1,3 @@
 # SQL-learning-journey
 about learning queries
-this journey is about mastering sql
+this is my azure data engineer learning journey
