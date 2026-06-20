@@ -20,4 +20,6 @@ This repository documents my 60-day journey to become an Azure Data Engineer.
 ## Progress
 
 ### SQL
-- Day 1: Database, Table, SELECT, WHERE
+- Day 1: Database, Table, SELECT, WHERE,Insert
+- git and github
+  
