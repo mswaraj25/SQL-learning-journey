@@ -3,7 +3,7 @@ about learning queries
 this is my azure data engineer learning journey
 # Azure Data Engineer Learning Journey
 
-This repository documents my 60-day journey to become an Azure Data Engineer.
+This repository documents my  journey to become an Azure Data Engineer.
 
 ## Skills Covered
 
