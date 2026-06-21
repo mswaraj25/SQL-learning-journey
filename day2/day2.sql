@@ -106,4 +106,8 @@ INSERT INTO EmployeeSalary VALUES(101,'Sai',60000),(102,'Rahul',45000),(103,'Pri
             
                         #MINt
 			select min(salary) from employeesalary;   #---------->minimum salary of the employees
+<<<<<<< HEAD
             
+=======
+            
+>>>>>>> cdaa36997131bb1ab412375fa5c8f9ba7bc1e2f3
