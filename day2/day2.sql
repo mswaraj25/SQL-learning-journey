@@ -101,14 +101,9 @@ INSERT INTO EmployeeSalary VALUES(101,'Sai',60000),(102,'Rahul',45000),(103,'Pri
                       #AVERAGE
 			 select avg(salary) from employeesalary;     #-------> average salary of the employees
             
-                        #MAX
-                        
+                        #MAX           
 			 select max(salary) from employeesalary;   # ---------->maximum salary of the employees
             
                         #MINt
 			select min(salary) from employeesalary;   #---------->minimum salary of the employees
             
-             
-
-
-select * from employeesalary                  ORDER BY employeeid                 limit 1                 UNION ALL                 select * from employeesalary                 order by employeeid                 limit 6 offset 3
