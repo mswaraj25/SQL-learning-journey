@@ -1,6 +1,6 @@
-###primary key(unique value and must not be null) and foriegn key.
+###primary key(unique value and must not be null) and foriegn key
 	CREATE database Institution;
-    use Institution;
+     use Institution;
   CREATE TABLE Students(StudentID INT PRIMARY KEY,Name VARCHAR(50));
   CREATE TABLE Courses(CourseID INT PRIMARY KEY,StudentID INT,CourseName VARCHAR(50),FOREIGN KEY(StudentID)REFERENCES Students(StudentID));   
    insert into students values(101,'sai' ),(102,'ravi'),(103,'krishna'),(104,'ram'),(105,'ganesh');
@@ -73,6 +73,24 @@ INSERT INTO EmployeeSalary VALUES(101,'Sai',60000),(102,'Rahul',45000),(103,'Pri
              #------
              select * from employeesalary limit 1 offset 4;
              
+             
+             
+             
+##########skip specific rows of the table (example:2&3 rows)
+
+                   select * from employeesalary
+                   where employeeid not in (102,103);
+                   
+##########skip specific rows of the table (example:2&3 rows) using limit and offset
+			    USE CompanyDB;
+				(select * from employeesalary 
+                limit 1)
+                UNION ALL
+                (select * from employeesalary
+                limit 6 offset 3);
+                
+
+             
 ##########. AGGREGATE FUNCTIONS
                        #COUNT
              select count(*) from employeesalary       #-----> total no of employees
@@ -93,3 +111,4 @@ INSERT INTO EmployeeSalary VALUES(101,'Sai',60000),(102,'Rahul',45000),(103,'Pri
              
 
 
+select * from employeesalary                  ORDER BY employeeid                 limit 1                 UNION ALL                 select * from employeesalary                 order by employeeid                 limit 6 offset 3
