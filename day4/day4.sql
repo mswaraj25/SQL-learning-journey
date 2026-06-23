@@ -89,18 +89,28 @@
          
                                 
                                 ####### SELF JOIN #######
-  #here using amazon database and employees table
-SELECT
-e.Name Employee,
-m.Name Manager
-FROM Employees e
-left JOIN Employees m
-ON e.ManagerID=m.EmpID;          
+                                
+                                
+       #here using amazon database and employees table
+    #SELECT e.Name Employee,m.Name Manager FROM Employees e left JOIN Employees m ON e.ManagerID=m.EmpID;          
 # for the query is made on same table so aliases(e,m)are used to distinguish 
 #here e.name = name in employee table and m.name = name in managers table
 #-->>>>e.managerID = m.empID means matching employee's managerID with manager's empID
           #---->>>>if left join is used it displays all employees with their managers
           #----->>>if right join is used it displays all the managers with employees
+          
+          
+              ###### NATURAL JOIN ####------>it gives the join of tables using common column names
+          
+          
+					######### FULL JOIN ######## -------> (LEFT JOIN) UNION (RIGHT JOIN)
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+							
 
           
          
